@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+<fullyQualifiedTypeName name="java.lang.StrictMath"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.capgemini.libraryManagement.beans.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.awt.print.Book"/>
+<fullyQualifiedTypeName name="com.capgemini.libraryManagement.beans.Books"/>
+<fullyQualifiedTypeName name="com.capgemini.libraryManagement.dao.AdminDao"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+</qualifiedTypeNameHistroy>

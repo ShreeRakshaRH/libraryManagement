@@ -1,0 +1,5 @@
+package com.capgemini.libraryManagement.beans;
+
+public class Librarian {
+
+}

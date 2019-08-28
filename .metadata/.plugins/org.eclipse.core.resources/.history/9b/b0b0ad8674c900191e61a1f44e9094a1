@@ -1,0 +1,16 @@
+package com.capgemini.libraryManagement.dao;
+
+import java.awt.print.Book;
+import java.util.List;
+
+public interface LibrarianDao {
+
+
+
+	public void add(Book book);
+	public void update(Book book);
+	public List<Book> findAll();
+	public Book findByISBN(String ISBN);
+	public List<Book> findByName(String name);
+
+}

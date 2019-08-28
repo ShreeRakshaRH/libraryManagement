@@ -1,0 +1,15 @@
+package com.capgemini.libraryManagement.beans;
+
+import java.util.Date;
+
+public class Library{
+	
+	private int registrationId;
+	private int id;
+	private int bookId;
+	private int bookBorrowed;
+	private Date registrationDate ;
+	private Date issueDate;
+	private Date returnDate;
+
+}

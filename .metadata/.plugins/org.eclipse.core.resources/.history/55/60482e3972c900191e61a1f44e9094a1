@@ -1,0 +1,25 @@
+package com.capgemini.libraryManagement.dao;
+
+import java.util.List;
+
+import com.capgemini.libraryManagement.beans.User;
+
+public interface Admin {
+
+	
+	public User adminLogin(User user) ;
+	public Boolean registerLibrarian( User librarian)  ;
+	public Boolean registerUser( User user)  ;
+	public Boolean deleteUser(String userId)  ;
+	public Boolean searchUser( User user)  ;
+	public Boolean searchLibrarian(String LibrarianId)  ;
+	public Boolean deleteLibrarian(Integer LibrarianId) ;
+	public List<User> getAllOwner();
+	public List<User> getAllCustomer();
+	
+	
+	
+}
+
+
+

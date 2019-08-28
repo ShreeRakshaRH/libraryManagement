@@ -1,0 +1,24 @@
+package com.capgemini.libraryManagement.beans;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class User {
+	@Id
+	@Column(name = "id")
+	private Integer userId;
+	@Column(name = "name")
+	private String userName;
+	@Column(name = "email")
+	private String userEmail;
+	@Column(name = "password")
+	private String userPassword;
+	@Column(name = "contact")
+	private Long userMobile;
+	@Column
+	private String type;
+	public Integer getUserId() {
+		return userId;
+	}
+
+}
